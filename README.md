@@ -28,18 +28,41 @@ And with the following configurations:
 
 - List to be done, consider "everything" for now.
 
+## Reference design support status
+
+
+| Feature                | Description                                                                                                    | Working state |
+|------------------------|----------------------------------------------------------------------------------------------------------------|---------------|
+| ⌨️ Side buttons         |                                                                                                                | ✅             |
+| ♋ Cellular Calls       |                                                                                                                | ❌             |
+| ♋ Cellular Data        |                                                                                                                | ❌             |
+| ♋ Cellular Texts       |                                                                                                                | ❌             |
+| ♋ WiFi                 |                                                                                                                | ❌             |
+| 🌡️ Thermal sensors      |                                                                                                                | ✅             |
+| 🎆 GPU                  |                                                                                                                | ❌             |
+| 👆 Touchscreen          |                                                                                                                | ✅             |
+| 💤 Modern Standby       |                                                                                                                | ✅             |
+| 📌 GPS                  |                                                                                                                | ✅             |
+| 📦 UFS                  |                                                                                                                | ✅             |
+| 📲 Display              |                                                                                                                | ✅             |
+| 📳 Vibration motor      |                                                                                                                | ❌             |
+| 📸 [Camera Flash]       |                                                                                                                | ❌             |
+| 🔋 Battery              |                                                                                                                | ✅             |
+| 🔌 Charger              |                                                                                                                | ❌             |
+| 🔵 Bluetooth            |                                                                                                                | ❌             |
+| 📺 HDMI / DP out        |                                                                                                                | ❌             |
+| 🧭 Sensors              |                                                                                                                | ✅             |
+| 🧮 SoC Cores            |                                                                                                                | ✅             |
+| 🪵 USB C                |                                                                                                                | ✅             |
+| 📸 Camera Sensors       | Requires Cam Sensor drivers configuration, otherwise camera subsystem is functional                            | ❌             |
+| 🔊 Audio                | Requires WP ADSP for Audio subsystem to work. Workaround hasn't been found yet                                 | ❌             |
+| 🧑‍💼 Hyper-V              | Requires correctly configured WP firmware, only possible with unfused devices                                  | ⚠️             |
+| 🧬 Fingerprint scanner  |                                                                                                                | ❌             |
+
+
 ## Relevant Documentation
 
 You can find a few notes under the docs folder inside this repository.
-
-## Stay in touch!
-
-For specific Snapdragon 888 BSP related inquiries, feel free to reach out on this github repository issue tracker, discussion board, or on telegram at:
-
-- t.me/DuoWOA (if your question is Surface Duo related, or does not concern a specific third party OEM made phone, or is about the Snapdragon 888 BSP in general)
-- https://t.me/project_aloha_issues (if your question is not Surface Duo related, or concerns a specific third party OEM made phone, or is about the Snapdragon 888 BSP in general)
-
-(Wait for an answer as well, we are not always available for inquiries)
 
 ## Misc
 
@@ -48,15 +71,3 @@ These driver files are not perfect, typos may exist, feel free to file an issue 
 ## Resources
 
 ## Copyright, License, Disclaimers and end user license agreement
-
-**Below notice must be present in all redistributed portions of this software**
-
-Please see [LICENSE](LICENSE.md)
-
-## Installing manually
-
-For preserving charset encoding, please checkout with using:
-
-```
-git clone -c core.autocrlf=false https://github.com/Ost268/windows_oem_samsung_q2q
-```
