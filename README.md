@@ -57,7 +57,7 @@ And with the following configurations:
 | 📸 Camera Sensors       | Requires Cam Sensor drivers configuration, otherwise camera subsystem is functional                            | ❌             |
 | 🔊 Audio                | Requires WP ADSP for Audio subsystem to work. Workaround hasn't been found yet                                 | ❌             |
 | 🧑‍💼 Hyper-V              | Requires correctly configured WP firmware, only possible with unfused devices                                  | ⚠️             |
-| 🧬 Fingerprint scanner  |                                                                                                                | ❌             |
+| 🧬 Fingerprint scanner  |                                                                                                                | ✅             |
 
 
 ## Relevant Documentation
