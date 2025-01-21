@@ -54,9 +54,9 @@ And with the following configurations:
 | 🧭 Sensors              |                                                                                                                | ✅             |
 | 🧮 SoC Cores            |                                                                                                                | ✅             |
 | 🪵 USB C                |                                                                                                                | ✅             |
-| 📸 Camera Sensors       | Requires Cam Sensor drivers configuration, otherwise camera subsystem is functional                            | ❌             |
-| 🔊 Audio                | Requires WP ADSP for Audio subsystem to work. Workaround hasn't been found yet                                 | ❌             |
-| 🧑‍💼 Hyper-V              | Requires correctly configured WP firmware, only possible with unfused devices                                  | ⚠️             |
+| 📸 Camera Sensors       |                                                                                                                | ❌             |
+| 🔊 Audio                |                                                                                                                | ❌             |
+| 🧑‍💼 Hyper-V              |                                                                                                                | ⚠️             |
 | 🧬 Fingerprint scanner  | Driver works, but sensor does not                                                                              | ✅             |
 
 
