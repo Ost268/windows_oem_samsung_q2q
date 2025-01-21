@@ -41,7 +41,7 @@ And with the following configurations:
 | 🌡️ Thermal sensors      |                                                                                                                | ✅             |
 | 🎆 GPU                  |                                                                                                                | ❌             |
 | 👆 Touchscreen          |                                                                                                                | ✅             |
-| 💤 Modern Standby       |                                                                                                                | ✅             |
+| 💤 Modern Standby       |                                                                                                                | ❌             |
 | 📌 GPS                  |                                                                                                                | ✅             |
 | 📦 UFS                  |                                                                                                                | ✅             |
 | 📲 Display              |                                                                                                                | ✅             |
